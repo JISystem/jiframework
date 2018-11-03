@@ -1,0 +1,27 @@
+{
+    "name": "jisystems/jiframework",
+    "description": "A miniframework to be used a starting point for small projects",
+    "type": "project",
+    "require": {
+        "php":">=5.5.0",
+        "phpmailer/phpmailer": "dev-master",
+      "ext-pdo": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac Tunduny",
+            "email": "itcyborg@outlook.com"
+        },
+        {
+            "name": "Justin Wamalwa",
+            "email": "justinwamalwa3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "classmap": [
+        "."
+      ]
+    }
+}
